@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="页面切换标签" transform="translate(-40.000000, -449.000000)">
+            <g id="编组-9">
+                <g id="nav">
+                    <g id="编组-2" transform="translate(24.000000, 408.000000)">
+                        <g id="编组-16" transform="translate(16.000000, 41.000000)">
+                            <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+                            <g id="编组-14" transform="translate(2.400000, 2.400000)">
+                                <path d="M0.8,6.6 L8.4,0.9 C9.11111111,0.366666667 10.0888889,0.366666667 10.8,0.9 L18.4,6.6 C18.9036117,6.97770876 19.2,7.57048539 19.2,8.2 L19.2,17.2 C19.2,18.3045695 18.3045695,19.2 17.2,19.2 L2,19.2 C0.8954305,19.2 1.3527075e-16,18.3045695 0,17.2 L0,8.2 C-7.70933048e-17,7.57048539 0.296388315,6.97770876 0.8,6.6 Z" id="矩形" fill="#FFFFFF"></path>
+                                <line x1="6" y1="14.4" x2="13.2" y2="14.4" id="路径-3" stroke="#7C75FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

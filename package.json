@@ -1,14 +1,33 @@
 {
   "name": "dby-public",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "description": "public package",
+  "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name dby-public --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "lib/dby-public.umd.min.js",
+  "author": "wgh",
+  "license": "ISC",
+  "repository": "https://github.com/wb8940336/dby-public.git",
+  "keywords": [
+    "dby",
+    "dby-public"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "crypto-js": "^4.0.0",
+    "element-ui": "^2.15.1",
+    "node-sass": "4.14.1",
+    "svg-sprite-loader": "5.2.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -16,8 +35,11 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "sass-loader": "8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
