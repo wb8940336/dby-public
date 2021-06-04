@@ -1,6 +1,6 @@
 {
   "name": "dby-public",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "public package",
   "private": false,
   "scripts": {
